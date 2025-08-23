@@ -1,0 +1,252 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "email": "rickosborne@duck.com",
+    "image": "https://rickosborne.org/images/rick-teach-hands.jpg",
+    "label": "Cloud & Mobile Engineering Force Multiplier",
+    "location": {
+      "countryCode": "US",
+      "region": "California"
+    },
+    "name": "Rick Osborne",
+    "profiles": [
+      {
+        "network": "github",
+        "url": "https://github.com/rickosborne",
+        "username": "rickosborne"
+      }
+    ],
+    "summary": "Web software professional since 1995.  Leadership, Education, Architecture, Development, Exploration, Research.",
+    "url": "https://rickosborne.org"
+  },
+  "education": [
+    {
+      "area": "Education Media Design & Technology",
+      "endDate": "2011",
+      "institution": "Full Sail University",
+      "score": "4.0",
+      "startDate": "2011",
+      "studyType": "M.S.",
+      "url": "https://web.archive.org/web/20110113121529/https://online.fullsail.edu/degrees/education-media-design-technology-masters/courses"
+    },
+    {
+      "area": "Information Systems Technology",
+      "endDate": "2009",
+      "institution": "University of Central Florida",
+      "startDate": "2007",
+      "studyType": "B.S.",
+      "url": "https://web.archive.org/web/20090329131204/https://www.ent.ucf.edu/undergraduate/ist/ist_index.html"
+    }
+  ],
+  "interests": [
+    {
+      "keywords": [
+        "gaming",
+        "social",
+        "creativity",
+        "collaboration",
+        "empathy"
+      ],
+      "name": "tabletop RPGs"
+    },
+    {
+      "keywords": [
+        "gaming",
+        "strategy",
+        "tactics",
+        "social",
+        "instruction",
+        "cooperation"
+      ],
+      "name": "board games"
+    },
+    {
+      "keywords": [
+        "gaming",
+        "strategy",
+        "tactics",
+        "problem solving"
+      ],
+      "name": "console gaming, open-world RPGs"
+    },
+    {
+      "keywords": [
+        "web",
+        "mobile",
+        "gaming",
+        "data"
+      ],
+      "name": "programming"
+    },
+    {
+      "keywords": [
+        "fiction",
+        "creativity",
+        "research",
+        "perspective"
+      ],
+      "name": "writing"
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "native",
+      "language": "English (US)"
+    }
+  ],
+  "meta": {
+    "canonical": "https://ricko.is/resume.json",
+    "lastModified": "2022-09-13T23:59:59",
+    "theme": "kendall",
+    "version": "2022.9.13"
+  },
+  "projects": [
+    {
+      "description": "Snarky one-page site you can link to in group chat whenever someone asks the inevitable question.",
+      "name": "Should I Create A Ticket?",
+      "type": "website",
+      "url": "https://should-i-create-a-ticket.team/"
+    },
+    {
+      "description": "Geek-oriented wordlist, dictionary, and identifier generator web app, intended for projects which need URL- and human-safe random word generators.",
+      "name": "words.supply",
+      "type": "application",
+      "url": "https://words.supply/"
+    },
+    {
+      "description": "Bare bones link shortener I created for myself to use, but which has gone through a number of tech stack iterations over the years.",
+      "name": "ricko.is Bounce",
+      "type": "application",
+      "url": "https://github.com/rickosborne/bounce"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "vision",
+        "communication",
+        "mentorship",
+        "guidance"
+      ],
+      "level": "advanced",
+      "name": "Team Leadership"
+    },
+    {
+      "keywords": [
+        "html",
+        "css",
+        "javascript",
+        "typescript",
+        "ux"
+      ],
+      "level": "master",
+      "name": "Front-End Web"
+    },
+    {
+      "keywords": [
+        "aws",
+        "java",
+        "typescript",
+        "data modeling"
+      ],
+      "level": "advanced",
+      "name": "Cloud Engineering"
+    },
+    {
+      "keywords": [
+        "android",
+        "java"
+      ],
+      "level": "intermediate",
+      "name": "Mobile Engineering"
+    }
+  ],
+  "work": [
+    {
+      "description": "Cloud Software Medical Devices",
+      "endDate": "2022-07",
+      "highlights": [
+        "Leadership: Senior-most software engineer and technical lead on multiple projects and teams.",
+        "Education: Evangelist for engineering iteration, including slide decks, reference docs, deep dive videos, etc.",
+        "Architecture: Primary source of software engineering vision, and collaborative source for execution, across several cloud software products, projects, and programs.",
+        "Development: Pre-alpha prototyping of emerging technologies, primarily Java- and AWS-based; proof-of-concept implementations of disruptive singularities; heavy-lift spikes."
+      ],
+      "location": "SF Bay Area, CA, US",
+      "name": "Roche Sequencing Solutions",
+      "position": "Senior Principal Software Architect II",
+      "startDate": "2015-08",
+      "summary": "Multi-product and multi-program architecture, team leadership, and prototype development for cloud software medical devices and related clinical biomarker applications.",
+      "url": "https://sequencing.roche.com/"
+    },
+    {
+      "description": "Ad Tech",
+      "endDate": "2015-08",
+      "highlights": [
+        "Leadership: Senior software engineer over a team split between new-grad junior engineers and senior-level international contractors.",
+        "Education: Source of arcane technical Web, browser, and data ethics knowledge for ~20 new-grad junior engineers.",
+        "Architecture: One of a handful of senior engineers collaborating without a dedicated architect to provide application roadmaps and execution plans.",
+        "Development: Ongoing code contributor on a sprawling internal tools codebase on a Ruby on Rails tech stack and custom continuous delivery pipeline."
+      ],
+      "location": "SF Bay Area, CA, US",
+      "name": "Rocket Fuel, Inc.",
+      "position": "Rocket Scientist (Front-End Engineering Manager)",
+      "startDate": "2013-08",
+      "summary": "Co-manager over a team of ~40 front-end software engineers working on internal tools for ad tech management.",
+      "url": "https://web.archive.org/web/20150816152248/https://rocketfuel.com/"
+    },
+    {
+      "description": "Education",
+      "endDate": "2013-07",
+      "highlights": [
+        "Leadership: Managed two integrated teams totaling ~40 faculty, including major instructional design overhauls of the two degrees and their programs.",
+        "Education: Started as a teacher in back-end Web courses, got my M.S., and presented at a number of workshops to disseminate that knowledge to my faculty peers.",
+        "Architecture: Rewrote an aging Flash-based Web degree to a modern cloud stack, and built out the Mobile degrees, including instructional design, lesson planning, and assignment generation for many courses across both programs.",
+        "Development: Single-handed-ly built out the university's first student data analytics Web visualization platform, to help educators gain insights into student and course performance and issues."
+      ],
+      "location": "Orlando, FL, US",
+      "name": "Full Sail University",
+      "position": "Program Manager",
+      "startDate": "2009-07",
+      "summary": "Designed and ran the Web Design & Development degree programs, both campus and online, and co-designed and co-ran the Mobile Development degree programs.",
+      "url": "https://web.archive.org/web/20120811130226/https://online.fullsail.edu/degrees/web-design-development-bachelors"
+    },
+    {
+      "description": "Art & Writing Supplies, Manufacturing",
+      "endDate": "2009-07",
+      "name": "Dixon Ticonderoga",
+      "position": "Web Development Lead",
+      "startDate": "2005-06",
+      "summary": "Sole Web developer for this 200-year-old writing and art supplies manufacturing company, primarily focused on mainframe integration, budget planning, and sales analytics visualization.",
+      "url": "https://dixonticonderogacompany.com/"
+    },
+    {
+      "description": "Internet Service Provider & Web Development",
+      "endDate": "2005",
+      "name": "Creative Data Concepts",
+      "position": "Lead Web Programmer",
+      "startDate": "2003",
+      "summary": "Sole in-house Developer, Database Administrator, and Network Administrator for several systems."
+    },
+    {
+      "description": "Web Development",
+      "endDate": "2002",
+      "name": "Mojo Interactive",
+      "position": "Lead Web Programmer",
+      "startDate": "2000"
+    },
+    {
+      "description": "Internet Banking Software",
+      "endDate": "2000",
+      "name": "Phoenix International",
+      "position": "Senior Web Developer",
+      "startDate": "1998"
+    },
+    {
+      "description": "US Government Contracting",
+      "endDate": "1998",
+      "name": "Northrop-Grumman Corp.",
+      "position": "Web Developer",
+      "startDate": "1996"
+    }
+  ]
+}

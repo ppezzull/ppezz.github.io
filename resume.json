@@ -1,16 +1,14 @@
 {
   "meta": {
-    "theme": "professional"
+    "theme": "rickosborne"
   },
   "basics": {
-    "name": "Pietro Jairo Pezzullo",
-    "phone": "+393201407882",
-    "label": "Fullstack & Web3 Developer",
-    "image": "https://github.com/ppezzull.png",
-    "summary": "Starting with a passion for blockchain and decentralized systems, I honed my skills in Web3 technologies through hands-on projects and hackathons. As my journey evolved, I expanded into traditional Web2 full‑stack development, building scalable and efficient solutions. Balancing my studies with this side hustle, I’m funding my college education while offering expertise in both classical and decentralized development. Sincerely dedicated to technology, I bring a unique blend of skills and a collaborative spirit to every project.",
-    "website": "https://github.com/ppezzull",
-    "url": "https://github.com/ppezzull",
-    "email": "pezzullopietro04@gmail.com",
+  "name": "Pietro Jairo Pezzullo",
+  "phone": "+393201407882",
+  "label": "Hospitality – Waiter",
+  "image": "https://i.postimg.cc/gjq6GCT4/Whats-App-Image-2025-08-23-at-17-20-00.jpg",
+  "summary": "I'm a student at Sapienza University seeking a part-time waiter role while I continue my studies. I'm friendly, reliable and work well in teams, with strong communication and language skills. I'm good with computers and technology and learn new systems quickly.",
+  "email": "pezzullopietro04@gmail.com",
     "location": {
       "city": "Rome",
       "countryCode": "IT"
@@ -22,63 +20,49 @@
         "network": "linkedin"
       },
       {
-        "url": "https://github.com/ppezzull",
-        "username": "ppezzull",
-        "network": "github"
+        "url": "https://www.instagram.com/pezzullopietro/",
+        "username": "pezzullopietro",
+        "network": "instagram"
       }
     ]
   },
   "education": [
     {
-      "endDate": "2024-06-01",
+      "endDate": "2024-06-28",
       "startDate": "2020-10-01",
       "area": "Corporate Information Systems",
       "studyType": "Technical Diploma",
       "institution": "IIS Leopoldo Pirelli, Via Assisi, Rome, Italy"
     },
     {
-      "endDate": "2025-08-01",
       "startDate": "2023-01-01",
       "area": "Computer Science",
       "studyType": "Common Core Certification",
       "institution": "42 Roma Luiss"
     }
+    ,
+    {
+      "startDate": "2024-08-15",
+      "area": "Telecommunications Engineering",
+      "studyType": "Bachelor's Degree (in progress)",
+      "institution": "Sapienza University of Rome"
+    }
   ],
-  "references": [],
   "skills": [
     {
-      "keywords": [
-        "HTML / JSX",
-        "SCSS / CSS / Tailwind CSS",
-        "Javascript / Typescript",
-        "React / Next.js",
-        "State management"
-      ],
-      "level": "Intermediate",
-      "name": "Frontend"
+      "name": "Hospitality & Service",
+      "level": "Entry",
+      "keywords": ["Customer service", "Teamwork", "Communication", "Time management", "Attention to detail", "Multitasking"]
     },
     {
-      "keywords": [
-        "Node / NestJS",
-        "Python",
-        "C / C++",
-        "MongoDB / Postgres",
-        "API design (REST/GraphQL)",
-        "Solidity / Smart contracts"
-      ],
-      "level": "Intermediate",
-      "name": "Backend"
+      "name": "Personal",
+      "level": "Good",
+      "keywords": ["Adaptability", "Reliability", "Positive attitude", "Quick learner", "Punctual"]
     },
     {
-      "keywords": [
-        "Linux",
-        "Docker",
-        "Git / GitHub",
-        "CI/CD",
-        "Networking basics"
-      ],
-      "level": "Intermediate",
-      "name": "Devops"
+      "name": "Technical",
+      "level": "Expert",
+      "keywords": ["Basic computer literacy", "Email and calendar", "Smartphone and tablet apps", "Web searching", "Online booking/tools"]
     }
   ],
   "awards": [
@@ -91,74 +75,73 @@
   ],
   "work": [
     {
-      "summary": "Testing and improving my backend development skills in real-world projects commissioned to my company by other businesses.",
-      "website": "",
+      "summary": "Worked as a junior developer in a small team where I supported product builds, coordinated with colleagues, and learned to manage responsibilities and deadlines. The role helped me build strong teamwork, clear communication, and problem-solving skills — all transferable to hospitality and customer service roles.",
+      "website": "https://originsolutions.it/",
       "name": "Origin Srl",
       "location": "Rome, Italy",
-      "position": "Backend Software Developer (Internship)",
+      "position": "Junior Developer (Internship)",
       "startDate": "2024-11-01",
+      "endDate": "2025-06-01",
       "highlights": [
-        "TypeScript • NestJS • MongoDB",
-        "React • Next.js for fullstack integration",
-        "API development and integration",
-        "Collaborating with senior engineers and stakeholders"
+        "Collaborated with a small cross-functional team",
+        "Managed tasks and deadlines under supervision",
+        "Improved communication with stakeholders",
+        "Demonstrated reliability and punctuality"
       ]
-    }
-  ],
-  "projects": [
-    {
-      "highlights": [
-        "Led backend development for 42Care, a decentralized fundraising app",
-        "Integrated backend and frontend in Next.js",
-        "Applied Web3 skills in a competitive setting and won the hackathon"
-      ],
-      "description": "Urbe Campus Hackathon winner project: 42Care — a fullstack Web3 fundraising platform built with Solidity and Next.js.",
-      "website": "",
-      "name": "42Care (Urbe Campus Hackathon)",
-      "startDate": "2024-02-01"
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native or bilingual proficiency"
+      "fluency": "B2 certified"
     },
     {
       "language": "Italian",
-      "fluency": "Native or bilingual proficiency"
+      "fluency": "Native proficiency"
     },
     {
       "language": "Spanish",
-      "fluency": "Native or bilingual proficiency"
+      "fluency": "Native proficiency"
     }
   ],
   "interests": [
     {
-      "name": "Open Source",
+      "name": "Fitness",
       "keywords": [
-        "Web3",
-        "Developer tooling"
+        "Gym",
+        "Wellness",
+        "Healthy lifestyle"
       ]
     },
     {
-      "name": "Hackathons",
+      "name": "Basketball",
       "keywords": [
-        "Rapid prototyping",
-        "Team collaboration"
+        "Playing",
+        "Team work"
       ]
     },
     {
-      "name": "Music",
+      "name": "Technology",
       "keywords": [
-        "Guitar",
-        "Sound design"
+        "Programming",
+        "Blockchain",
+        "Linux"
       ]
     },
     {
-      "name": "Books",
+      "name": "Competitions",
       "keywords": [
-        "Technology",
-        "History"
+        "Hackathons",
+        "Coding competitions",
+        "Sports tournaments"
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "keywords": [
+        "Problem solving",
+        "Puzzles",
+        "Applied math"
       ]
     }
   ]
