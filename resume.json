@@ -15,7 +15,7 @@
     },
     "profiles": [
       {
-        "username": "pietro-jairo-pezzullo-764947237",
+        "username": "pietro-jairo-pezzullo",
         "url": "https://www.linkedin.com/in/pietro-jairo-pezzullo-764947237/",
         "network": "linkedin"
       },
@@ -44,7 +44,7 @@
     {
       "startDate": "2024-08-15",
       "area": "Telecommunications Engineering",
-      "studyType": "Bachelor's Degree (in progress)",
+      "studyType": "Bachelor's Degree",
       "institution": "Sapienza University of Rome"
     }
   ],
@@ -133,14 +133,6 @@
         "Hackathons",
         "Coding competitions",
         "Sports tournaments"
-      ]
-    },
-    {
-      "name": "Mathematics",
-      "keywords": [
-        "Problem solving",
-        "Puzzles",
-        "Applied math"
       ]
     }
   ]
