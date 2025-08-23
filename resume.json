@@ -3,15 +3,15 @@
     "theme": "professional"
   },
   "basics": {
-  "name": "Pietro Jairo Pezzullo",
-  "phone": "+393201407882",
-  "label": "Hospitality – Waiter",
-  "image": "https://i.postimg.cc/gjq6GCT4/Whats-App-Image-2025-08-23-at-17-20-00.jpg",
-  "summary": "I'm a student at Sapienza University seeking a part-time waiter role while I continue my studies. I'm friendly, reliable and work well in teams, with strong communication and language skills. I'm good with computers and technology and learn new systems quickly.",
-  "website": "https://www.instagram.com/pezzullopietro/",
-  "email": "pezzullopietro04@gmail.com",
+    "name": "Pietro Jairo Pezzullo",
+    "phone": "+393201407882",
+    "label": "Ospitalità – Cameriere",
+    "image": "https://i.postimg.cc/gjq6GCT4/Whats-App-Image-2025-08-23-at-17-20-00.jpg",
+    "summary": "Sono uno studente presso la Sapienza di Roma e cerco un lavoro part-time come cameriere mentre proseguo gli studi. Sono cordiale, affidabile e lavoro bene in squadra, con solide capacità comunicative e linguistiche. Ho buone competenze informatiche e tecnologiche e imparo rapidamente nuovi sistemi.",
+    "website": "https://www.instagram.com/pezzullopietro/",
+    "email": "pezzullopietro04@gmail.com",
     "location": {
-      "city": "Rome",
+      "city": "Roma",
       "countryCode": "IT"
     },
     "profiles": [
@@ -31,39 +31,57 @@
     {
       "endDate": "2024-06-28",
       "startDate": "2020-10-01",
-      "area": "Corporate Information Systems",
-      "studyType": "Technical Diploma",
-      "institution": "IIS Leopoldo Pirelli, Via Assisi, Rome, Italy"
+      "area": "Sistemi informativi aziendali",
+      "studyType": "Diploma tecnico",
+      "institution": "IIS Leopoldo Pirelli, Via Assisi, Roma, Italia"
     },
     {
       "startDate": "2023-01-01",
-      "area": "Computer Science",
-      "studyType": "Common Core Certification",
+      "area": "Informatica",
+      "studyType": "Certificazione Common Core",
       "institution": "42 Roma Luiss"
-    }
-    ,
+    },
     {
       "startDate": "2024-08-15",
-      "area": "Telecommunications Engineering",
-      "studyType": "Bachelor's Degree",
-      "institution": "Sapienza University of Rome"
+      "area": "Ingegneria delle telecomunicazioni",
+      "studyType": "Laurea (in corso)",
+      "institution": "Sapienza — Università di Roma"
     }
   ],
   "skills": [
     {
-      "name": "Hospitality & Service",
+      "name": "Ospitalità e Servizio",
       "level": "Entry",
-      "keywords": ["Customer service", "Teamwork", "Communication", "Time management", "Attention to detail", "Multitasking"]
+      "keywords": [
+        "Servizio clienti",
+        "Lavoro di squadra",
+        "Comunicazione",
+        "Gestione del tempo",
+        "Attenzione ai dettagli",
+        "Multitasking"
+      ]
     },
     {
-      "name": "Personal",
-      "level": "Good",
-      "keywords": ["Adaptability", "Reliability", "Positive attitude", "Quick learner", "Punctual"]
+      "name": "Personali",
+      "level": "Buono",
+      "keywords": [
+        "Adattabilità",
+        "Affidabilità",
+        "Atteggiamento positivo",
+        "Apprendimento rapido",
+        "Puntualità"
+      ]
     },
     {
-      "name": "Technical",
-      "level": "Expert",
-      "keywords": ["Basic computer literacy", "Email and calendar", "Smartphone and tablet apps", "Web searching", "Online booking/tools"]
+      "name": "Tecniche",
+      "level": "Base",
+      "keywords": [
+        "Conoscenze informatiche di base",
+        "Email e calendario",
+        "App per smartphone e tablet",
+        "Ricerca web",
+        "Prenotazioni e strumenti online"
+      ]
     }
   ],
   "awards": [
@@ -71,69 +89,69 @@
       "title": "PCAP - Certified Associate in Python Programming",
       "awarder": "Python Institute",
       "date": "2022-06-01",
-      "summary": "Foundational certification covering Python syntax, OOP, standard library usage, and problem solving."
+      "summary": "Certificazione introduttiva che copre sintassi Python, programmazione a oggetti, uso della libreria standard e problem solving."
     }
   ],
   "work": [
     {
-      "summary": "Worked as a junior developer in a small team where I supported product builds, coordinated with colleagues, and learned to manage responsibilities and deadlines. The role helped me build strong teamwork, clear communication, and problem-solving skills — all transferable to hospitality and customer service roles.",
+      "summary": "Svolto il ruolo di sviluppatore junior in un piccolo team dove ho supportato la realizzazione di prodotti, coordinato con i colleghi e imparato a gestire responsabilità e scadenze. Il ruolo mi ha permesso di sviluppare forte attitudine al lavoro di squadra, comunicazione chiara e capacità di risoluzione dei problemi, tutte trasferibili al settore dell'ospitalità.",
       "website": "https://originsolutions.it/",
       "name": "Origin Srl",
-      "location": "Rome, Italy",
-      "position": "Junior Developer (Internship)",
+      "location": "Roma, Italia",
+      "position": "Sviluppatore junior (stage)",
       "startDate": "2024-11-01",
       "endDate": "2025-06-01",
       "highlights": [
-        "Collaborated with a small cross-functional team",
-        "Managed tasks and deadlines under supervision",
-        "Demonstrated reliability and punctuality"
+        "Collaborato con un piccolo team multidisciplinare",
+        "Gestito compiti e scadenze sotto supervisione",
+        "Dimostrata affidabilità e puntualità"
       ]
     }
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "B2 certified"
+      "language": "Inglese",
+      "fluency": "Certificato B2"
     },
     {
-      "language": "Italian",
-      "fluency": "Native proficiency"
+      "language": "Italiano",
+      "fluency": "Madrelingua"
     },
     {
-      "language": "Spanish",
-      "fluency": "Native proficiency"
+      "language": "Spagnolo",
+      "fluency": "Madrelingua"
     }
   ],
   "interests": [
     {
       "name": "Fitness",
       "keywords": [
-        "Gym",
-        "Wellness",
-        "Healthy lifestyle"
+        "Palestra",
+        "Benessere",
+        "Stile di vita sano"
       ]
     },
     {
-      "name": "Basketball",
+      "name": "Basket",
       "keywords": [
-        "Playing",
-        "Team work"
+        "Pratica",
+        "Lavoro di squadra"
       ]
     },
     {
-      "name": "Technology",
+      "name": "Tecnologia",
       "keywords": [
-        "Programming",
+        "Programmazione",
         "Blockchain",
         "Linux"
       ]
     },
     {
-      "name": "Competitions",
+      "name": "Competizioni",
       "keywords": [
-        "Hackathons",
-        "Coding competitions",
-        "Sports tournaments"
+        "Hackathon",
+        "Competizioni di coding",
+        "Tornei sportivi"
       ]
     }
   ]
