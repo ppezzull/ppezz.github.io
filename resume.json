@@ -5,83 +5,80 @@
   "basics": {
     "name": "Pietro Jairo Pezzullo",
     "phone": "+393201407882",
-    "label": "Ospitalità – Cameriere",
-    "image": "https://i.postimg.cc/gjq6GCT4/Whats-App-Image-2025-08-23-at-17-20-00.jpg",
-    "summary": "Sono uno studente presso la Sapienza di Roma e cerco un lavoro part-time come cameriere mentre proseguo gli studi. Sono cordiale, affidabile e lavoro bene in squadra, con solide capacità comunicative e linguistiche. Ho buone competenze informatiche e tecnologiche e imparo rapidamente nuovi sistemi.",
-    "website": "https://www.instagram.com/pezzullopietro/",
+    "label": "Fullstack & Web3 Developer",
+    "image": "https://github.com/ppezzull.png",
+    "summary": "Starting with a passion for blockchain and decentralized systems, I honed my skills in Web3 technologies through hands-on projects and hackathons. As my journey evolved, I expanded into traditional Web2 full‑stack development, building scalable and efficient solutions. Balancing my studies with this side hustle, I’m funding my college education while offering expertise in both classical and decentralized development. Sincerely dedicated to technology, I bring a unique blend of skills and a collaborative spirit to every project.",
+    "website": "https://github.com/ppezzull",
+    "url": "https://github.com/ppezzull",
     "email": "pezzullopietro04@gmail.com",
     "location": {
-      "city": "Roma",
+      "city": "Rome",
       "countryCode": "IT"
     },
     "profiles": [
       {
-        "username": "pietro-jairo-pezzullo",
+        "username": "pietro-jairo-pezzullo-764947237",
         "url": "https://www.linkedin.com/in/pietro-jairo-pezzullo-764947237/",
         "network": "linkedin"
       },
       {
-        "url": "https://www.instagram.com/pezzullopietro/",
-        "username": "pezzullopietro",
-        "network": "instagram"
+        "url": "https://github.com/ppezzull",
+        "username": "ppezzull",
+        "network": "github"
       }
     ]
   },
   "education": [
     {
-      "endDate": "2024-06-28",
+      "endDate": "2024-06-01",
       "startDate": "2020-10-01",
-      "area": "Sistemi informativi aziendali",
-      "studyType": "Diploma tecnico",
-      "institution": "IIS Leopoldo Pirelli, Via Assisi, Roma, Italia"
+      "area": "Corporate Information Systems",
+      "studyType": "Technical Diploma",
+      "institution": "IIS Leopoldo Pirelli, Via Assisi, Rome, Italy"
     },
     {
+      "endDate": "2025-08-01",
       "startDate": "2023-01-01",
-      "area": "Informatica",
-      "studyType": "Certificazione Common Core",
+      "area": "Computer Science",
+      "studyType": "Common Core Certification",
       "institution": "42 Roma Luiss"
-    },
-    {
-      "startDate": "2024-08-15",
-      "area": "Ingegneria delle telecomunicazioni",
-      "studyType": "Laurea (in corso)",
-      "institution": "Sapienza — Università di Roma"
     }
   ],
+  "references": [],
   "skills": [
     {
-      "name": "Ospitalità e Servizio",
+      "keywords": [
+        "HTML / JSX",
+        "SCSS / CSS / Tailwind CSS",
+        "Javascript / Typescript",
+        "React / Next.js",
+        "State management"
+      ],
       "level": "Intermediate",
-      "keywords": [
-        "Servizio clienti",
-        "Lavoro di squadra",
-        "Comunicazione",
-        "Gestione del tempo",
-        "Attenzione ai dettagli",
-        "Multitasking"
-      ]
+      "name": "Frontend"
     },
     {
-      "name": "Personali",
-      "level": "Senior",
       "keywords": [
-        "Adattabilità",
-        "Affidabilità",
-        "Atteggiamento positivo",
-        "Apprendimento rapido",
-        "Puntualità"
-      ]
+        "Node / NestJS",
+        "Python",
+        "C / C++",
+        "MongoDB / Postgres",
+        "API design (REST/GraphQL)",
+        "Solidity / Smart contracts"
+      ],
+      "level": "Intermediate",
+      "name": "Backend"
     },
     {
-      "name": "Tecniche",
-      "level": "Senior",
       "keywords": [
-        "Conoscenze informatiche di base",
-        "Email e calendario",
-        "App per smartphone e tablet",
-        "Ricerca web",
-        "Prenotazioni e strumenti online"
-      ]
+        "Linux",
+        "Docker",
+        "Git / GitHub",
+        "CI/CD",
+        "Networking basics"
+      ],
+      "level": "Intermediate",
+      "name": "Devops"
     }
   ],
   "awards": [
@@ -89,69 +86,79 @@
       "title": "PCAP - Certified Associate in Python Programming",
       "awarder": "Python Institute",
       "date": "2022-06-01",
-      "summary": "Certificazione introduttiva che copre sintassi Python, programmazione a oggetti, uso della libreria standard e problem solving."
+      "summary": "Foundational certification covering Python syntax, OOP, standard library usage, and problem solving."
     }
   ],
   "work": [
     {
-      "summary": "Svolto il ruolo di sviluppatore junior in un piccolo team dove ho supportato la realizzazione di prodotti, coordinato con i colleghi e imparato a gestire responsabilità e scadenze. Il ruolo mi ha permesso di sviluppare forte attitudine al lavoro di squadra, comunicazione chiara e capacità di risoluzione dei problemi, tutte trasferibili al settore dell'ospitalità.",
-      "website": "https://originsolutions.it/",
+      "summary": "Testing and improving my backend development skills in real-world projects commissioned to my company by other businesses.",
+      "website": "",
       "name": "Origin Srl",
-      "location": "Roma, Italia",
-      "position": "Sviluppatore junior (stage)",
+      "location": "Rome, Italy",
+      "position": "Backend Software Developer (Internship)",
       "startDate": "2024-11-01",
-      "endDate": "2025-06-01",
       "highlights": [
-        "Collaborato con un piccolo team multidisciplinare",
-        "Gestito compiti e scadenze sotto supervisione",
-        "Dimostrata affidabilità e puntualità"
+        "TypeScript • NestJS • MongoDB",
+        "React • Next.js for fullstack integration",
+        "API development and integration",
+        "Collaborating with senior engineers and stakeholders"
       ]
+    }
+  ],
+  "projects": [
+    {
+      "highlights": [
+        "Led backend development for 42Care, a decentralized fundraising app",
+        "Integrated backend and frontend in Next.js",
+        "Applied Web3 skills in a competitive setting and won the hackathon"
+      ],
+      "description": "Urbe Campus Hackathon winner project: 42Care — a fullstack Web3 fundraising platform built with Solidity and Next.js.",
+      "website": "",
+      "name": "42Care (Urbe Campus Hackathon)",
+      "startDate": "2024-02-01"
     }
   ],
   "languages": [
     {
-      "language": "Inglese",
-      "fluency": "Certificato B2"
+      "language": "English",
+      "fluency": "Native or bilingual proficiency"
     },
     {
-      "language": "Italiano",
-      "fluency": "Madrelingua"
+      "language": "Italian",
+      "fluency": "Native or bilingual proficiency"
     },
     {
-      "language": "Spagnolo",
-      "fluency": "Madrelingua"
+      "language": "Spanish",
+      "fluency": "Native or bilingual proficiency"
     }
   ],
   "interests": [
     {
-      "name": "Fitness",
+      "name": "Open Source",
       "keywords": [
-        "Palestra",
-        "Benessere",
-        "Stile di vita sano"
+        "Web3",
+        "Developer tooling"
       ]
     },
     {
-      "name": "Basket",
+      "name": "Hackathons",
       "keywords": [
-        "Pratica",
-        "Lavoro di squadra"
+        "Rapid prototyping",
+        "Team collaboration"
       ]
     },
     {
-      "name": "Tecnologia",
+      "name": "Music",
       "keywords": [
-        "Programmazione",
-        "Blockchain",
-        "Linux"
+        "Guitar",
+        "Sound design"
       ]
     },
     {
-      "name": "Competizioni",
+      "name": "Books",
       "keywords": [
-        "Hackathon",
-        "Competizioni di coding",
-        "Tornei sportivi"
+        "Technology",
+        "History"
       ]
     }
   ]
