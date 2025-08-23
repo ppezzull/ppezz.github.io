@@ -63,7 +63,7 @@
     },
     {
       "name": "Personali",
-      "level": "Buono",
+      "level": "Good",
       "keywords": [
         "Adattabilità",
         "Affidabilità",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Tecniche",
-      "level": "Base",
+      "level": "Expert",
       "keywords": [
         "Conoscenze informatiche di base",
         "Email e calendario",
