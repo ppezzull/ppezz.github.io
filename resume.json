@@ -7,9 +7,7 @@
     "phone": "+393201407882",
     "label": "Fullstack & Web3 Developer",
     "image": "https://github.com/ppezzull.png",
-    "summary": "Starting with a passion for blockchain and decentralized systems, I honed my skills in Web3 technologies through hands-on projects and hackathons. As my journey evolved, I expanded into traditional Web2 full‑stack development, building scalable and efficient solutions. Balancing my studies with this side hustle, I’m funding my college education while offering expertise in both classical and decentralized development. Sincerely dedicated to technology, I bring a unique blend of skills and a collaborative spirit to every project.",
-    "website": "https://github.com/ppezzull",
-    "url": "https://github.com/ppezzull",
+    "summary": "Fullstack developer with expertise in Web3 technologies and traditional development. Computer science student at 42 Roma Luiss with proven skills in hackathon competitions. Trilingual professional combining technical knowledge with collaborative teamwork.",
     "email": "pezzullopietro04@gmail.com",
     "location": {
       "city": "Rome",
@@ -25,34 +23,39 @@
         "url": "https://github.com/ppezzull",
         "username": "ppezzull",
         "network": "github"
+      },
+      {
+        "url": "https://app.talentprotocol.com/ee077939-14b2-4138-b0f0-a015c77d11f8",
+        "username": "ppezz",
+        "network": "talent-protocol"
       }
     ]
   },
   "education": [
-    {
-      "endDate": "2024-06-01",
-      "startDate": "2020-10-01",
-      "area": "Corporate Information Systems",
-      "studyType": "Technical Diploma",
-      "institution": "IIS Leopoldo Pirelli, Via Assisi, Rome, Italy"
-    },
     {
       "endDate": "2025-08-01",
       "startDate": "2023-01-01",
       "area": "Computer Science",
       "studyType": "Common Core Certification",
       "institution": "42 Roma Luiss"
+    },
+    {
+      "endDate": "2024-06-01",
+      "startDate": "2020-10-01",
+      "area": "Corporate Information Systems",
+      "studyType": "Technical Diploma",
+      "institution": "IIS Leopoldo Pirelli, Via Assisi, Rome, Italy"
     }
   ],
   "references": [],
   "skills": [
     {
       "keywords": [
-        "HTML / JSX",
+        "HTML / JSX / TSX",
         "SCSS / CSS / Tailwind CSS",
-        "Javascript / Typescript",
-        "React / Next.js",
-        "State management"
+        "React / Next.js / Vite",
+        "Server-side rendering",
+        "Shadcn libs: Acernity / Origin UI"
       ],
       "level": "Intermediate",
       "name": "Frontend"
@@ -64,7 +67,7 @@
         "C / C++",
         "MongoDB / Postgres",
         "API design (REST/GraphQL)",
-        "Solidity / Smart contracts"
+        "Foundry / Hardhat"
       ],
       "level": "Intermediate",
       "name": "Backend"
@@ -87,13 +90,19 @@
       "awarder": "Python Institute",
       "date": "2022-06-01",
       "summary": "Foundational certification covering Python syntax, OOP, standard library usage, and problem solving."
+    },
+    {
+      "title": "TOEFL, iBT",
+      "awarder": "Educational Testing Service",
+      "date": "2025-02-02",
+      "summary": "Certification demonstrating English language proficiency for academic and professional purposes."
     }
   ],
   "work": [
     {
       "summary": "Testing and improving my backend development skills in real-world projects commissioned to my company by other businesses.",
-      "website": "",
-      "name": "Origin Srl",
+      "website": "https://originsolutions.it",
+      "name": "Origin Solutions Srl",
       "location": "Rome, Italy",
       "position": "Backend Software Developer (Internship)",
       "startDate": "2024-11-01",
@@ -101,7 +110,7 @@
         "TypeScript • NestJS • MongoDB",
         "React • Next.js for fullstack integration",
         "API development and integration",
-        "Collaborating with senior engineers and stakeholders"
+        "Collaborating with senior engineers"
       ]
     }
   ],
@@ -121,7 +130,7 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Native or bilingual proficiency"
+      "fluency": "Certified B2 from TOEFL iBT"
     },
     {
       "language": "Italian",
@@ -136,29 +145,33 @@
     {
       "name": "Open Source",
       "keywords": [
+        "Developer tooling",
         "Web3",
-        "Developer tooling"
+        "Linux"
       ]
     },
     {
       "name": "Hackathons",
       "keywords": [
         "Rapid prototyping",
-        "Team collaboration"
+        "Team collaboration",
+        "Travel",
+        "Networking"
       ]
     },
     {
-      "name": "Music",
+      "name": "Basketball",
       "keywords": [
-        "Guitar",
-        "Sound design"
+        "Streetball",
+        "3x3",
+        "Ballislife"
       ]
     },
     {
-      "name": "Books",
+      "name": "Fitness",
       "keywords": [
-        "Technology",
-        "History"
+        "Calisthenics",
+        "Outdoor training"
       ]
     }
   ]
