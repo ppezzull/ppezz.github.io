@@ -15,8 +15,8 @@
     },
     "profiles": [
       {
-        "username": "pietro-jairo-pezzullo-764947237",
-        "url": "https://www.linkedin.com/in/pietro-jairo-pezzullo-764947237/",
+        "username": "pietro-jairo-pezzullo",
+        "url": "https://www.linkedin.com/in/pietro-jairo-pezzullo",
         "network": "linkedin"
       },
       {
@@ -129,16 +129,16 @@
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Certified B2 from TOEFL iBT"
-    },
-    {
       "language": "Italian",
-      "fluency": "Native or bilingual proficiency"
+      "fluency": "Native proficiency"
     },
     {
       "language": "Spanish",
-      "fluency": "Native or bilingual proficiency"
+      "fluency": "Native proficiency"
+    },
+    {
+      "language": "English",
+      "fluency": "Certified B2 from TOEFL iBT"
     }
   ],
   "interests": [
