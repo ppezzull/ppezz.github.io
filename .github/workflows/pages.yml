@@ -36,17 +36,13 @@ jobs:
 
       - name: Prepare Pages artifact
         run: |
-          mkdir -p site/src
-          cp -v src/resume.html site/src/
+          mkdir -p site
+          # Publish resume at root as index.html
+          cp -v src/resume.html site/index.html
+          # Fix font paths for root (from ../fonts/ to ./fonts/)
+          sed -i 's|../fonts/|./fonts/|g' site/index.html || true
+          # Include fonts folder if present
           if [ -d fonts ]; then cp -rv fonts site/; fi
-          # Optional: add a simple index that links to src/resume.html
-          cat > site/index.html <<'EOF'
-          <!doctype html>
-          <meta charset="utf-8">
-          <title>Resume</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-          <p><a href="./src/resume.html">Open resume</a></p>
-          EOF
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
