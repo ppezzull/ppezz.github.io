@@ -1,0 +1,65 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies (including dev)
+        run: |
+          npm install --include=dev --no-fund --no-audit
+
+      - name: Generate resume HTML
+        run: |
+          node src/generate-resume.js
+
+      - name: Prepare Pages artifact
+        run: |
+          mkdir -p site/src
+          cp -v src/resume.html site/src/
+          if [ -d fonts ]; then cp -rv fonts site/; fi
+          # Optional: add a simple index that links to src/resume.html
+          cat > site/index.html <<'EOF'
+          <!doctype html>
+          <meta charset="utf-8">
+          <title>Resume</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <p><a href="./src/resume.html">Open resume</a></p>
+          EOF
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
