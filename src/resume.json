@@ -5,83 +5,83 @@
   "basics": {
     "name": "Pietro Jairo Pezzullo",
     "phone": "+393201407882",
-    "label": "Fullstack & Web3 Developer",
-    "image": "https://github.com/ppezzull.png",
-    "summary": "Fullstack developer with expertise in Web3 technologies and traditional development. Computer science student at 42 Roma Luiss with proven skills in hackathon competitions. Trilingual professional combining technical knowledge with collaborative teamwork.",
+    "label": "Ospitalità – Cameriere",
+    "image": "https://i.postimg.cc/gjq6GCT4/Whats-App-Image-2025-08-23-at-17-20-00.jpg",
+    "summary": "Sono uno studente presso la Sapienza di Roma e cerco un lavoro part-time come cameriere mentre proseguo gli studi. Sono cordiale, affidabile e lavoro bene in squadra, con solide capacità comunicative e linguistiche. Ho buone competenze informatiche e tecnologiche e imparo rapidamente nuovi sistemi.",
+    "website": "https://www.instagram.com/pezzullopietro/",
     "email": "pezzullopietro04@gmail.com",
     "location": {
-      "city": "Rome",
+      "city": "Roma",
       "countryCode": "IT"
     },
     "profiles": [
       {
         "username": "pietro-jairo-pezzullo",
-        "url": "https://www.linkedin.com/in/pietro-jairo-pezzullo",
+        "url": "https://www.linkedin.com/in/pietro-jairo-pezzullo-764947237/",
         "network": "linkedin"
       },
       {
-        "url": "https://github.com/ppezzull",
-        "username": "ppezzull",
-        "network": "github"
-      },
-      {
-        "url": "https://app.talentprotocol.com/ee077939-14b2-4138-b0f0-a015c77d11f8",
-        "username": "ppezz",
-        "network": "talent-protocol"
+        "url": "https://www.instagram.com/pezzullopietro/",
+        "username": "pezzullopietro",
+        "network": "instagram"
       }
     ]
   },
   "education": [
     {
-      "endDate": "2025-08-01",
+      "endDate": "2024-06-28",
+      "startDate": "2020-10-01",
+      "area": "Sistemi informativi aziendali",
+      "studyType": "Diploma tecnico",
+      "institution": "IIS Leopoldo Pirelli, Via Assisi, Roma, Italia"
+    },
+    {
       "startDate": "2023-01-01",
-      "area": "Computer Science",
-      "studyType": "Common Core Certification",
+      "area": "Informatica",
+      "studyType": "Certificazione Common Core",
       "institution": "42 Roma Luiss"
     },
     {
-      "endDate": "2024-06-01",
-      "startDate": "2020-10-01",
-      "area": "Corporate Information Systems",
-      "studyType": "Technical Diploma",
-      "institution": "IIS Leopoldo Pirelli, Via Assisi, Rome, Italy"
+      "startDate": "2024-08-15",
+      "area": "Ingegneria delle telecomunicazioni",
+      "studyType": "Laurea (in corso)",
+      "institution": "Sapienza — Università di Roma"
     }
   ],
-  "references": [],
   "skills": [
     {
-      "keywords": [
-        "HTML / JSX / TSX",
-        "SCSS / CSS / Tailwind CSS",
-        "React / Next.js / Vite",
-        "Server-side rendering",
-        "Shadcn libs: Acernity / Origin UI"
-      ],
+      "name": "Ospitalità e Servizio",
       "level": "Intermediate",
-      "name": "Frontend"
+      "keywords": [
+        "Servizio clienti",
+        "Lavoro di squadra",
+        "Comunicazione",
+        "Gestione del tempo",
+        "Attenzione ai dettagli",
+        "Multitasking"
+      ]
     },
     {
+      "name": "Personali",
+      "level": "Senior",
       "keywords": [
-        "Node / NestJS",
-        "Python",
-        "C / C++",
-        "MongoDB / Postgres",
-        "API design (REST/GraphQL)",
-        "Foundry / Hardhat"
-      ],
-      "level": "Intermediate",
-      "name": "Backend"
+        "Adattabilità",
+        "Affidabilità",
+        "Atteggiamento positivo",
+        "Apprendimento rapido",
+        "Puntualità"
+      ]
     },
     {
+      "name": "Tecniche",
+      "level": "Senior",
       "keywords": [
-        "Linux",
-        "Docker",
-        "Git / GitHub",
-        "CI/CD",
-        "Networking basics"
-      ],
-      "level": "Intermediate",
-      "name": "Devops"
+        "Conoscenze informatiche di base",
+        "Email e calendario",
+        "App per smartphone e tablet",
+        "Ricerca web",
+        "Prenotazioni e strumenti online"
+      ]
     }
   ],
   "awards": [
@@ -89,89 +89,71 @@
       "title": "PCAP - Certified Associate in Python Programming",
       "awarder": "Python Institute",
       "date": "2022-06-01",
-      "summary": "Foundational certification covering Python syntax, OOP, standard library usage, and problem solving."
-    },
-    {
-      "title": "TOEFL, iBT",
-      "awarder": "Educational Testing Service",
-      "date": "2025-02-02",
-      "summary": "Certification demonstrating English language proficiency for academic and professional purposes."
+      "summary": "Certificazione introduttiva che copre sintassi Python, programmazione a oggetti, uso della libreria standard e problem solving."
     }
   ],
   "work": [
     {
-      "summary": "Testing and improving my backend development skills in real-world projects commissioned to my company by other businesses.",
-      "website": "https://originsolutions.it",
-      "name": "Origin Solutions Srl",
-      "location": "Rome, Italy",
-      "position": "Backend Software Developer (Internship)",
-      "startDate": "2024-11-01",
-      "highlights": [
-        "TypeScript • NestJS • MongoDB",
-        "React • Next.js for fullstack integration",
-        "API development and integration",
-        "Collaborating with senior engineers"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "highlights": [
-        "Led backend development for 42Care, a decentralized fundraising app",
-        "Integrated backend and frontend in Next.js",
-        "Applied Web3 skills in a competitive setting and won the hackathon"
-      ],
-      "description": "Urbe Campus Hackathon winner project: 42Care — a fullstack Web3 fundraising platform built with Solidity and Next.js.",
+      "summary": "Cameriere in un ristorante di Roma, responsabile di accoglienza, presa ordini, servizio ai tavoli e gestione pagamenti. Esperienza nel mantenere alti standard di cortesia, pulizia e lavoro di squadra in turni serali e nel weekend.",
       "website": "",
-      "name": "42Care (Urbe Campus Hackathon)",
-      "startDate": "2024-02-01"
+      "name": "Ristorante locale",
+      "location": "Roma, Italia",
+      "position": "Cameriere",
+      "startDate": "2024-11-01",
+      "endDate": "2025-06-01",
+      "highlights": [
+        "Accolto i clienti e supportato la gestione della sala in orari di punta",
+        "Presa ordini accurata e attenzione a intolleranze e allergie",
+        "Servizio ai tavoli rapido e cordiale, con cura dei dettagli",
+        "Gestione dei pagamenti e chiusura di fine turno",
+        "Collaborazione con cucina e bar per garantire un servizio efficiente"
+      ]
     }
   ],
   "languages": [
     {
-      "language": "Italian",
-      "fluency": "Native proficiency"
+      "language": "Inglese",
+      "fluency": "Certificato B2"
     },
     {
-      "language": "Spanish",
-      "fluency": "Native proficiency"
+      "language": "Italiano",
+      "fluency": "Madrelingua"
     },
     {
-      "language": "English",
-      "fluency": "Certified B2 from TOEFL iBT"
+      "language": "Spagnolo",
+      "fluency": "Madrelingua"
     }
   ],
   "interests": [
     {
-      "name": "Open Source",
+      "name": "Fitness",
       "keywords": [
-        "Developer tooling",
-        "Web3",
+        "Palestra",
+        "Benessere",
+        "Stile di vita sano"
+      ]
+    },
+    {
+      "name": "Basket",
+      "keywords": [
+        "Pratica",
+        "Lavoro di squadra"
+      ]
+    },
+    {
+      "name": "Tecnologia",
+      "keywords": [
+        "Programmazione",
+        "Blockchain",
         "Linux"
       ]
     },
     {
-      "name": "Hackathons",
+      "name": "Competizioni",
       "keywords": [
-        "Rapid prototyping",
-        "Team collaboration",
-        "Travel",
-        "Networking"
-      ]
-    },
-    {
-      "name": "Basketball",
-      "keywords": [
-        "Streetball",
-        "3x3",
-        "Ballislife"
-      ]
-    },
-    {
-      "name": "Fitness",
-      "keywords": [
-        "Calisthenics",
-        "Outdoor training"
+        "Hackathon",
+        "Competizioni di coding",
+        "Tornei sportivi"
       ]
     }
   ]
