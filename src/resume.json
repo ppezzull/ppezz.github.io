@@ -5,77 +5,83 @@
   "basics": {
     "name": "Pietro Jairo Pezzullo",
     "phone": "+393201407882",
-    "label": "Ospitalità – Cameriere",
-    "image": "https://i.postimg.cc/Xv8dQd79/ec809afa-cebb-4d3f-b347-8069b5b78321-Photoroom-Edited.png",
-    "summary": "Sono uno studente presso la Sapienza di Roma e cerco un lavoro part-time come cameriere mentre proseguo gli studi. Sono cordiale, affidabile e lavoro bene in squadra, con solide capacità comunicative e linguistiche. Ho buone competenze informatiche e tecnologiche e imparo rapidamente nuovi sistemi.",
-    "website": "https://www.instagram.com/pezzullopietro/",
+    "label": "Fullstack & Web3 Developer",
+    "image": "https://github.com/ppezzull.png",
+    "summary": "Fullstack developer with expertise in Web3 technologies and traditional development. Computer science student at 42 Roma Luiss with proven skills in hackathon competitions. Trilingual professional combining technical knowledge with collaborative teamwork.",
     "email": "pezzullopietro04@gmail.com",
     "location": {
-      "city": "Roma",
+      "city": "Rome",
       "countryCode": "IT"
     },
     "profiles": [
       {
-        "url": "https://www.instagram.com/pezzullopietro/",
-        "username": "pezzullopietro",
-        "network": "instagram"
+        "username": "pietro-jairo-pezzullo",
+        "url": "https://www.linkedin.com/in/pietro-jairo-pezzullo",
+        "network": "linkedin"
+      },
+      {
+        "url": "https://github.com/ppezzull",
+        "username": "ppezzull",
+        "network": "github"
+      },
+      {
+        "url": "https://app.talentprotocol.com/ee077939-14b2-4138-b0f0-a015c77d11f8",
+        "username": "ppezz",
+        "network": "talent-protocol"
       }
     ]
   },
   "education": [
     {
-      "endDate": "2024-06-28",
-      "startDate": "2020-10-01",
-      "area": "Sistemi informativi aziendali",
-      "studyType": "Diploma tecnico",
-      "institution": "IIS Leopoldo Pirelli, Via Assisi, Roma, Italia"
-    },
-    {
+      "endDate": "2025-08-01",
       "startDate": "2023-01-01",
-      "area": "Informatica",
-      "studyType": "Certificazione Common Core",
+      "area": "Computer Science",
+      "studyType": "Common Core Certification",
       "institution": "42 Roma Luiss"
     },
     {
-      "startDate": "2024-08-15",
-      "area": "Ingegneria delle telecomunicazioni",
-      "studyType": "Laurea (in corso)",
-      "institution": "Sapienza — Università di Roma"
+      "endDate": "2024-06-01",
+      "startDate": "2020-10-01",
+      "area": "Corporate Information Systems",
+      "studyType": "Technical Diploma",
+      "institution": "IIS Leopoldo Pirelli, Via Assisi, Rome, Italy"
     }
   ],
+  "references": [],
   "skills": [
     {
-      "name": "Ospitalità e Servizio",
+      "keywords": [
+        "HTML / JSX / TSX",
+        "SCSS / CSS / Tailwind CSS",
+        "React / Next.js / Vite",
+        "Server-side rendering",
+        "Shadcn libs: Acernity / Origin UI"
+      ],
       "level": "Intermediate",
-      "keywords": [
-        "Servizio clienti",
-        "Lavoro di squadra",
-        "Comunicazione",
-        "Gestione del tempo",
-        "Attenzione ai dettagli",
-        "Multitasking"
-      ]
+      "name": "Frontend"
     },
     {
-      "name": "Personali",
-      "level": "Senior",
       "keywords": [
-        "Adattabilità",
-        "Affidabilità",
-        "Atteggiamento positivo",
-        "Apprendimento rapido",
-        "Puntualità"
-      ]
+        "Node / NestJS",
+        "Python",
+        "C / C++",
+        "MongoDB / Postgres",
+        "API design (REST/GraphQL)",
+        "Foundry / Hardhat"
+      ],
+      "level": "Intermediate",
+      "name": "Backend"
     },
     {
-      "name": "Tecniche",
-      "level": "Senior",
       "keywords": [
-        "Conoscenze informatiche di base",
-        "Email e calendario",
-        "App per smartphone e tablet",
-        "Ricerca web"
-      ]
+        "Linux",
+        "Docker",
+        "Git / GitHub",
+        "CI/CD",
+        "Networking basics"
+      ],
+      "level": "Intermediate",
+      "name": "Devops"
     }
   ],
   "awards": [
@@ -83,57 +89,90 @@
       "title": "PCAP - Certified Associate in Python Programming",
       "awarder": "Python Institute",
       "date": "2022-06-01",
-      "summary": "Certificazione introduttiva che copre sintassi Python, programmazione a oggetti, uso della libreria standard e problem solving."
+      "summary": "Foundational certification covering Python syntax, OOP, standard library usage, and problem solving."
+    },
+    {
+      "title": "TOEFL, iBT",
+      "awarder": "Educational Testing Service",
+      "date": "2025-02-02",
+      "summary": "Certification demonstrating English language proficiency for academic and professional purposes."
     }
   ],
   "work": [
     {
-      "summary": "Cameriere, responsabile di accoglienza, presa ordini, servizio ai tavoli e gestione pagamenti. Esperienza nel mantenere alti standard di cortesia, pulizia e lavoro di squadra in turni serali e nel weekend.",
-      "website": "",
-      "name": "Posizione nel settore ospitalità",
-      "location": "Roma, Italia",
-      "position": "Cameriere",
+      "summary": "Testing and improving my backend development skills in real-world projects commissioned to my company by other businesses.",
+      "website": "https://originsolutions.it",
+      "name": "Origin Solutions Srl",
+      "location": "Rome, Italy",
+      "position": "Backend Software Developer (Internship)",
       "startDate": "2024-11-01",
-      "endDate": "2025-06-01",
       "highlights": [
-        "Accolto i clienti e supportato la gestione della sala in orari di punta",
-        "Presa ordini accurata e attenzione a intolleranze e allergie",
-        "Servizio ai tavoli rapido e cordiale, con cura dei dettagli",
-        "Gestione dei pagamenti e chiusura di fine turno",
-        "Collaborazione con cucina e bar per garantire un servizio efficiente"
+        "TypeScript • NestJS • MongoDB",
+        "React • Next.js for fullstack integration",
+        "API development and integration",
+        "Collaborating with senior engineers"
       ]
+    }
+  ],
+  "projects": [
+    {
+      "highlights": [
+        "Led backend development for 42Care, a decentralized fundraising app",
+        "Integrated backend and frontend in Next.js",
+        "Applied Web3 skills in a competitive setting and won the hackathon"
+      ],
+      "description": "Urbe Campus Hackathon winner project: 42Care — a fullstack Web3 fundraising platform built with Solidity and Next.js.",
+      "website": "",
+      "name": "42Care (Urbe Campus Hackathon)",
+      "startDate": "2024-02-01"
     }
   ],
   "languages": [
     {
-      "language": "Inglese",
-      "fluency": "Certificato B2"
+      "language": "Italian",
+      "fluency": "Native proficiency"
     },
     {
-      "language": "Italiano",
-      "fluency": "Madrelingua"
+      "language": "Spanish",
+      "fluency": "Native proficiency"
     },
     {
-      "language": "Spagnolo",
-      "fluency": "Madrelingua"
+      "language": "English",
+      "fluency": "Certified B2 from TOEFL iBT"
     }
   ],
   "interests": [
     {
-      "name": "Fitness",
-      "keywords": ["Palestra", "Benessere", "Stile di vita sano"]
+      "name": "Open Source",
+      "keywords": [
+        "Developer tooling",
+        "Web3",
+        "Linux"
+      ]
+    },
+    {
+      "name": "Hackathons",
+      "keywords": [
+        "Rapid prototyping",
+        "Team collaboration",
+        "Travel",
+        "Networking"
+      ]
     },
     {
       "name": "Basketball",
-      "keywords": ["Pratica", "Lavoro di squadra"]
+      "keywords": [
+        "Streetball",
+        "3x3",
+        "Ballislife"
+      ]
     },
     {
-      "name": "Tecnologia",
-      "keywords": ["Programmazione", "Blockchain", "Linux"]
-    },
-    {
-      "name": "Competizioni",
-      "keywords": ["Hackathon", "Tornei sportivi"]
+      "name": "Fitness",
+      "keywords": [
+        "Calisthenics",
+        "Outdoor training"
+      ]
     }
   ]
 }
