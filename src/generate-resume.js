@@ -64,7 +64,13 @@ function injectLinks(html, resume) {
   const $ = cheerio.load(html);
 
   // Common selectors observed in the theme output (keeps it DRY)
-  const titleSelectors = ['div.sc-hjsuWn.jINFql', 'div.sc-jJLAfE.jsgwBQ'];
+  // include additional selectors observed in rendered HTML (references use sc-kCuUfV / sc-dNdcvo)
+  const titleSelectors = [
+    'div.sc-hjsuWn.jINFql',
+    'div.sc-jJLAfE.jsgwBQ',
+    'div.sc-kCuUfV.bEuQPz',
+    'p.sc-dNdcvo'
+  ];
 
   // Normalizes text for comparison: collapse whitespace and lower-case
   function normalizeText(s) {
@@ -120,6 +126,11 @@ function injectLinks(html, resume) {
   if (Array.isArray(resume.certifications)) {
     linkifyEntries(resume.certifications, 'title');
     linkifyEntries(resume.certifications, 'name');
+  }
+
+  // Link references (try both 'name' and 'reference' fields)
+  if (Array.isArray(resume.references)) {
+    linkifyEntries(resume.references, 'name');
   }
 
   return $.html();

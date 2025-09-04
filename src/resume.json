@@ -116,17 +116,6 @@
       ],
       "level": "Intermediate",
       "name": "Devops"
-    },
-    {
-      "keywords": [
-        "Communication",
-        "Teamwork",
-        "Problem-solving",
-        "Adaptability",
-        "Time management"
-      ],
-      "level": "Intermediate",
-      "name": "Soft"
     }
   ],
   "certificates": [
@@ -164,16 +153,66 @@
   ],
   "projects": [
     {
+      "name": "zkMed",
+      "startDate": "2025-06-01",
+      "endDate": "",
+      "description": "Privacy-preserving healthcare insurance solution. Automates premium collection and claim payouts using stablecoins. Uses vlayer MailProofs for DKIM email verification, Chainlink Automation for scheduled payments, and insurer-specific pools earning ~4% APY with a 50% yield share to zkMed.",
       "highlights": [
-        "Led backend development using Solidity and Hardhat",
-        "Integrated backend and frontend in Next.js",
-        "Applied Web3 skills in a competitive setting and won the hackathon"
+        "Won bounties: CyberScope audit credit, Base USDC grant, Chainlink acceleration",
+        "Privy embedded wallets for social login and account abstraction",
+        "MailProofs for domain and user verification with on-chain proof hashes",
+        "Patient claim verification and payouts via mailproofs",
+        "Insurer pools with yield via Aave"
       ],
-      "description": "Urbe Campus Hackathon winner project: 42Care — a fullstack Web3 fundraising platform built with Solidity and Next.js.",
-      "website": "https://github.com/egidioquad/urbeHacks",
-      "name": "42Care (Urbe Campus Hackathon)",
-      "startDate": "2024-11-01",
-      "endDate": "2024-11-03"
+      "website": "https://github.com/ppezzull/zkMed"
+    },
+    {
+      "name": "Scaffold-Privy-AA",
+      "startDate": "2024-07-01",
+      "description": "A developer toolkit for building Ethereum dapps with Privy social login + account abstraction, integrated with Supabase for RLS via a server-side token exchange. Includes Next.js frontend, Foundry contracts, shadcn UI, and ready-to-run local/production Supabase setups. This is a custom scaffold variant that replaces DaisyUI and RainbowKit with shadcn and Privy, and provides three branches for development: foundry, hardhat, and supabase.",
+      "highlights": [
+        "Privy-based social login and account abstraction (wallets + embedded)",
+        "Server Action verifies Privy JWT and mints short-lived Supabase-signed JWT for RLS",
+        "Supabase admin upsert flow mapping Privy DID to internal user UUID",
+        "Contract hot-reload workflow with Foundry and frontend auto-adapting to contract changes",
+        "Prebuilt UI components (shadcn) and web3 hooks (wagmi/viem) for rapid development",
+        "Local and production-ready Supabase signing key configurations (HS256 for local, ES256/JWKS for hosted)"
+      ],
+      "website": "https://github.com/ppezzull/Scaffold-Privy-AA"
+    },
+    {
+      "name": "1Balancer",
+      "startDate": "2024-08-01",
+      "endDate": "present",
+      "description": "Automated, capital-efficient portfolio rebalancer built for Base L2. On-chain Balancer contracts hold custody and targets; Next.js + Postgres off-chain orchestrator handles pricing, drift detection, order construction and signing. Rebalancing executes 1inch limit orders (via an authenticated proxy) for on-chain execution.",
+      "highlights": [
+        "Next.js frontend with server actions and a bot for off-chain orchestration.",
+        "1inch integration for quotes, charts and limit orders via an authenticated proxy.",
+        "Architecture supports EIP-712 signed proposals and EIP-1271 (contract) signature verification for on-chain execution.",
+        "Designed for both serverless (Vercel cron) and continuous self-hosted bot modes (PM2/systemd)."
+      ],
+      "website": "https://devfolio.co/projects/balancer-6d59"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Urbe Campus Hackathon Winner",
+      "date": "2024-04-14",
+      "awarder": "Urbe.eth and BuidlGuidl",
+      "summary": "Pitched the project and led the winning team; implemented the smart contract using Solidity and developed the endpoints for the Next.js frontend to consume, building a blockchain fundraising platform with scaffold-eth.",
+      "website": "https://www.linkedin.com/posts/pietro-jairo-pezzullo_im-thrilled-to-announce-that-our-team-emerged-activity-7177659459882672128-JXm7?utm_source=share&utm_medium=member_desktop&rcm=ACoAADsM03wBEsoY4tKY0R7JbZ75TclnMY4SiLc"
+    },
+    {
+      "title": "Highschool Institute Award for Academic Excellence",
+      "date": "2023-05-18",
+      "awarder": "IIS Leopoldo Pirelli",
+      "summary": "Awarded for winning Robotics competition"
+    },
+    {
+      "title": "Highschool Institute Award for Academic Excellence",
+      "date": "2022-05-24",
+      "awarder": "IIS Leopoldo Pirelli",
+      "summary": "Awarded for concluding the Devnet Scholarship program and achieving Python certification"
     }
   ],
   "languages": [
@@ -197,11 +236,7 @@
     },
     {
       "name": "Hackathons",
-      "keywords": [
-        "Rapid prototyping",
-        "Team collaboration",
-        "Networking"
-      ]
+      "keywords": ["Rapid prototyping", "Team collaboration", "Networking"]
     },
     {
       "name": "Basketball",
@@ -214,6 +249,13 @@
     {
       "name": "Travel",
       "keywords": ["Adventures", "Culinary Cultures"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Urbe.eth",
+      "reference": "Associate member of Urbe, Rome's largest community of blockchain developers.",
+      "website": "https://urbe.build"
     }
   ]
 }
