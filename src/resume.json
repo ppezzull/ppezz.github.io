@@ -185,7 +185,7 @@
     },
     {
       "name": "Scaffold-Privy-AA",
-      "startDate": "2024-07-01",
+      "startDate": "2025-07-01",
       "description": "Developer toolkit for building Ethereum dapps with Privy social login and account abstraction, paired with Supabase for row-level security via a server-side token exchange. Includes a Next.js frontend, Foundry contracts, shadcn UI components, and ready-to-run local Supabase configurations. This custom scaffold replaces DaisyUI and RainbowKit with shadcn and Privy and provides three development branches: foundry, hardhat, and supabase.",
       "highlights": [
         "Privy-based social login and account abstraction (wallets + embedded)",
@@ -199,7 +199,7 @@
     },
     {
       "name": "1Balancer",
-      "startDate": "2024-08-01",
+      "startDate": "2025-08-01",
       "description": "Automated, capital-efficient portfolio rebalancer prototype for Base L2. On-chain Balancer contracts hold custody and targets; a Next.js + Postgres off-chain orchestrator handles pricing, drift detection, order construction and signing. Rebalancing uses 1inch limit orders via an authenticated proxy for on-chain execution when triggered.",
       "highlights": [
         "Next.js frontend with server actions and a bot for off-chain orchestration.",
