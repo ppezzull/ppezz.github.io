@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
+const cheerio = require('cheerio');
+
 function setupBabel() {
   try {
     require('@babel/register')({
@@ -57,6 +59,45 @@ function injectBaseFontSize(html, sizePx) {
   return html.replace('</head>', `${tag}</head>`);
 }
 
+function injectLinks(html, resume) {
+  // Use cheerio to parse and manipulate HTML
+  const $ = cheerio.load(html);
+
+  // For work: wrap position in <a> if website exists
+  if (Array.isArray(resume.work)) {
+    resume.work.forEach(entry => {
+      if (entry.website && entry.position) {
+        $(`div.sc-hjsuWn.jINFql`).each(function () {
+          const el = $(this);
+          if (el.text().trim() === entry.position) {
+            if (el.find('a').length === 0) {
+              el.html(`<a href="${entry.website}" target="_blank" style="color:inherit;text-decoration:none;">${entry.position}</a>`);
+            }
+          }
+        });
+      }
+    });
+  }
+
+  // For projects: wrap name in <a> if website exists
+  if (Array.isArray(resume.projects)) {
+    resume.projects.forEach(entry => {
+      if (entry.website && entry.name) {
+        $(`div.sc-jJLAfE.jsgwBQ, div.sc-hjsuWn.jINFql`).each(function () {
+          const el = $(this);
+          if (el.text().trim() === entry.name) {
+            if (el.find('a').length === 0) {
+              el.html(`<a href="${entry.website}" target="_blank" style="color:inherit;text-decoration:none;">${entry.name}</a>`);
+            }
+          }
+        });
+      }
+    });
+  }
+
+  return $.html();
+}
+
 function writeHtml(outPath, html) {
   fs.writeFileSync(path.resolve(outPath), html);
 }
@@ -67,11 +108,12 @@ function main() {
     const render = getThemeRender();
     const resume = loadResumeData('./src/resume.json');
 
-    let html = render(resume);
-    html = mapMissingFonts(html);
-    html = rewriteFontUrls(html);
-    html = injectBaseFontSize(html, '11.5px');
-    writeHtml('./src/resume.html', html);
+  let html = render(resume);
+  html = mapMissingFonts(html);
+  html = rewriteFontUrls(html);
+  html = injectBaseFontSize(html, '11.5px');
+  html = injectLinks(html, resume);
+  writeHtml('./src/resume.html', html);
 
     console.log('Resume successfully generated: src/resume.html');
   } catch (error) {
