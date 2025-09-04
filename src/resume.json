@@ -23,108 +23,157 @@
         "url": "https://github.com/ppezzull",
         "username": "ppezzull",
         "network": "github"
-      },
-      {
-        "url": "https://app.talentprotocol.com/ee077939-14b2-4138-b0f0-a015c77d11f8",
-        "username": "ppezz",
-        "network": "talent-protocol"
       }
     ]
   },
   "education": [
     {
-      "endDate": "2025-08-01",
+      "startDate": "2024-09-15",
+      "area": "Telecommunication Engineering",
+      "studyType": "Bachelor's Degree",
+      "institution": "Sapienza University of Rome",
+      "website": "https://corsidilaurea.uniroma1.it/it/corso/2025/33497/home",
+      "courses": ["Linear Algebra", "Calculus", "Geometry"]
+    },
+    {
       "startDate": "2023-01-01",
       "area": "Computer Science",
       "studyType": "Common Core Certification",
-      "institution": "42 Roma Luiss"
+      "institution": "42 Roma Luiss",
+      "website": "https://42roma.it/",
+      "courses": [
+        "Software development in UNIX/LINUX",
+        "GitHub and Co-Working",
+        "Scripting in bash",
+        "C • C++ • Bash • Typescript",
+        "Docker • Devops basics",
+        "Threads",
+        "Data structures and algorithms",
+        "Object-oriented programming",
+        "Networking basics",
+        "Web Services (HTTP, REST, WebSocket)",
+        "Virtual Machines",
+        "Fullstack development"
+      ]
     },
     {
       "endDate": "2024-06-01",
       "startDate": "2020-10-01",
       "area": "Corporate Information Systems",
       "studyType": "Technical Diploma",
-      "institution": "IIS Leopoldo Pirelli, Via Assisi, Rome, Italy"
+      "institution": "IIS Leopoldo Pirelli, Via Assisi, Rome, Italy",
+      "website": "https://www.leopoldopirelli.edu.it/indirizzo-sistemi-informativi-aziendali-sia/",
+      "courses": [
+        "Law • Political Economy • Accounting",
+        "C++ • Python • Visual Basic",
+        "Database design",
+        "Networking",
+        "Cryptography",
+        "Web technologies (HTML, CSS, JS)",
+        "Arduino programming"
+      ]
     }
   ],
-  "references": [],
   "skills": [
     {
       "keywords": [
         "HTML / JSX / TSX",
-        "SCSS / CSS / Tailwind CSS",
+        "CSS / Tailwind CSS",
         "React / Next.js / Vite",
-        "Server-side rendering",
-        "Shadcn libs: Acernity / Origin UI"
+        "Shadcn / Acernity / Origin UI"
       ],
       "level": "Intermediate",
       "name": "Frontend"
     },
     {
       "keywords": [
-        "Node / NestJS",
-        "Python",
-        "C / C++",
+        "Node.js",
         "MongoDB / Postgres",
+        "Supabase / Prisma",
         "API design (REST/GraphQL)",
-        "Foundry / Hardhat"
+        "JWTs / Jose"
       ],
       "level": "Intermediate",
       "name": "Backend"
     },
     {
       "keywords": [
-        "Linux",
+        "Solidity",
+        "Thirdweb / Privy / Wagmi",
+        "Foundry / Hardhat",
+        "Viem / Ethers.js",
+        "Openzeppelin / Chainlink"
+      ],
+      "level": "Intermediate",
+      "name": "Blockchain"
+    },
+    {
+      "keywords": [
+        "Alpine / Ubuntu / Debian",
         "Docker",
-        "Git / GitHub",
-        "CI/CD",
-        "Networking basics"
+        "Git / GitHub ",
+        "CI/CD"
       ],
       "level": "Intermediate",
       "name": "Devops"
-    }
-  ],
-  "awards": [
-    {
-      "title": "PCAP - Certified Associate in Python Programming",
-      "awarder": "Python Institute",
-      "date": "2022-06-01",
-      "summary": "Foundational certification covering Python syntax, OOP, standard library usage, and problem solving."
     },
     {
-      "title": "TOEFL, iBT",
-      "awarder": "Educational Testing Service",
+      "keywords": [
+        "Communication",
+        "Teamwork",
+        "Problem-solving",
+        "Adaptability",
+        "Time management"
+      ],
+      "level": "Intermediate",
+      "name": "Soft"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "PCAP - Certified Associate in Python Programming",
+      "issuer": "Python Institute",
+      "date": "2022-06-01",
+      "website": "https://drive.google.com/file/d/1uBfRAla8zoeob5FGbB2qeJmBm_lxH0NC/view"
+    },
+    {
+      "name": "TOEFL, iBT",
+      "issuer": "Educational Testing Service",
       "date": "2025-02-02",
-      "summary": "Certification demonstrating English language proficiency for academic and professional purposes."
+      "website": "https://drive.google.com/file/d/1o60VxCmVorsfx7HgDpNcZMvTR3iHYg0-/view?usp=sharing"
     }
   ],
   "work": [
     {
-      "summary": "Testing and improving my backend development skills in real-world projects commissioned to my company by other businesses.",
+      "summary": "Hired after demonstrating Next.js and TypeScript skills at ETH Rome 2024 to one of my teammates. Although the company primarily builds Web2 products, I was brought on to contribute to modern, TypeScript‑centric stacks, working mostly on backend services and some frontend integrations.",
       "website": "https://originsolutions.it",
       "name": "Origin Solutions Srl",
       "location": "Rome, Italy",
       "position": "Backend Software Developer (Internship)",
       "startDate": "2024-11-01",
+      "endDate": "2025-06-01",
       "highlights": [
-        "TypeScript • NestJS • MongoDB",
-        "React • Next.js for fullstack integration",
-        "API development and integration",
-        "Collaborating with senior engineers"
+        "REST API development and integration using NestJS and Postman",
+        "PostgreSQL database schema design with Supabase",
+        "Expo for mobile app development and deeplinking flows with Microsoft Azure",
+        "Server-side rendering (SSR) with Next.js for better UX and SEO",
+        "Query generated types for type-safe database interactions",
+        "Shadcn UI integration with Next.js for frontend components"
       ]
     }
   ],
   "projects": [
     {
       "highlights": [
-        "Led backend development for 42Care, a decentralized fundraising app",
+        "Led backend development using Solidity and Hardhat",
         "Integrated backend and frontend in Next.js",
         "Applied Web3 skills in a competitive setting and won the hackathon"
       ],
       "description": "Urbe Campus Hackathon winner project: 42Care — a fullstack Web3 fundraising platform built with Solidity and Next.js.",
       "website": "https://github.com/egidioquad/urbeHacks",
       "name": "42Care (Urbe Campus Hackathon)",
-      "startDate": "2024-02-01"
+      "startDate": "2024-11-01",
+      "endDate": "2024-11-03"
     }
   ],
   "languages": [
@@ -138,41 +187,33 @@
     },
     {
       "language": "English",
-      "fluency": "Certified B2 from TOEFL iBT"
+      "fluency": "B2 proficiency"
     }
   ],
   "interests": [
     {
       "name": "Open Source",
-      "keywords": [
-        "Developer tooling",
-        "Web3",
-        "Linux"
-      ]
+      "keywords": ["Developer tooling", "Blockchain", "Linux"]
     },
     {
       "name": "Hackathons",
       "keywords": [
         "Rapid prototyping",
         "Team collaboration",
-        "Travel",
         "Networking"
       ]
     },
     {
       "name": "Basketball",
-      "keywords": [
-        "Streetball",
-        "3x3",
-        "Ballislife"
-      ]
+      "keywords": ["Streetball", "3x3", "Ballislife"]
     },
     {
       "name": "Fitness",
-      "keywords": [
-        "Calisthenics",
-        "Outdoor training"
-      ]
+      "keywords": ["Calisthenics", "Outdoor training"]
+    },
+    {
+      "name": "Travel",
+      "keywords": ["Adventures", "Culinary Cultures"]
     }
   ]
 }

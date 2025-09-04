@@ -63,36 +63,63 @@ function injectLinks(html, resume) {
   // Use cheerio to parse and manipulate HTML
   const $ = cheerio.load(html);
 
-  // For work: wrap position in <a> if website exists
-  if (Array.isArray(resume.work)) {
-    resume.work.forEach(entry => {
-      if (entry.website && entry.position) {
-        $(`div.sc-hjsuWn.jINFql`).each(function () {
-          const el = $(this);
-          if (el.text().trim() === entry.position) {
-            if (el.find('a').length === 0) {
-              el.html(`<a href="${entry.website}" target="_blank" style="color:inherit;text-decoration:none;">${entry.position}</a>`);
-            }
-          }
-        });
-      }
+  // Common selectors observed in the theme output (keeps it DRY)
+  const titleSelectors = ['div.sc-hjsuWn.jINFql', 'div.sc-jJLAfE.jsgwBQ'];
+
+  // Normalizes text for comparison: collapse whitespace and lower-case
+  function normalizeText(s) {
+    return (s || '').replace(/\s+/g, ' ').trim().toLowerCase();
+  }
+
+  // Safely create and append an <a> to the element
+  function wrapElementWithLink(el, href, linkText) {
+    if (el.find('a').length > 0) return; // already linked
+    const a = $('<a>')
+      .attr('href', href)
+      .attr('target', '_blank')
+      .attr('rel', 'noopener noreferrer')
+      .css('color', 'inherit')
+      .css('text-decoration', 'none')
+      .text(linkText);
+    el.empty().append(a);
+  }
+
+  // Generic helper: iterate entries, look for matching rendered nodes, and wrap
+  function linkifyEntries(entries, fieldName) {
+    if (!Array.isArray(entries)) return;
+    entries.forEach(entry => {
+      const href = entry.website;
+      const raw = entry[fieldName];
+      if (!href || !raw) return;
+      const targetNorm = normalizeText(raw);
+      // Try exact match first, fall back to contains match
+      $(titleSelectors.join(',')).each(function () {
+        const el = $(this);
+        const rendered = normalizeText(el.text());
+        if (!rendered) return;
+        if (rendered === targetNorm || rendered.includes(targetNorm)) {
+          wrapElementWithLink(el, href, raw);
+        }
+      });
     });
   }
 
-  // For projects: wrap name in <a> if website exists
-  if (Array.isArray(resume.projects)) {
-    resume.projects.forEach(entry => {
-      if (entry.website && entry.name) {
-        $(`div.sc-jJLAfE.jsgwBQ, div.sc-hjsuWn.jINFql`).each(function () {
-          const el = $(this);
-          if (el.text().trim() === entry.name) {
-            if (el.find('a').length === 0) {
-              el.html(`<a href="${entry.website}" target="_blank" style="color:inherit;text-decoration:none;">${entry.name}</a>`);
-            }
-          }
-        });
-      }
-    });
+  // Map resume sections to the field that should be linked
+  // work -> position, projects -> name, education -> institution
+  linkifyEntries(resume.work, 'position');
+  linkifyEntries(resume.projects, 'name');
+  linkifyEntries(resume.education, 'institution');
+  linkifyEntries(resume.awards, 'title');
+
+  // Support alternate certificate fields: certificates or certifications
+  // Some resume files use `title`, others use `name` for certificate entries — try both.
+  if (Array.isArray(resume.certificates)) {
+    linkifyEntries(resume.certificates, 'title');
+    linkifyEntries(resume.certificates, 'name');
+  }
+  if (Array.isArray(resume.certifications)) {
+    linkifyEntries(resume.certifications, 'title');
+    linkifyEntries(resume.certifications, 'name');
   }
 
   return $.html();
