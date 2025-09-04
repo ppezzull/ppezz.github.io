@@ -1,24 +1,57 @@
+## Professional Resume
 
-The easy way to host your resume is by making a `resume.json` on gist.github.com. 
+Generates a static resume HTML from `src/resume.json` using the `jsonresume-theme-professional` theme, post-processes it, and publishes via GitHub Pages.
 
-For example mine can be found at https://gist.github.com/thomasdavis/c9dcfa1b37dec07fb2ee7f36d7278105 which then automatically gets hosted at https://registry.jsonresume.org/thomasdavis 
+### Key files
+- `src/resume.json` — your data. Add a `website` string to `work` or `projects` entries to create links.
+- `src/generate-resume.js` — renders the theme, fixes fonts, injects base font size, and uses Cheerio to add links.
+- `.github/workflows/pages.yml` — CI workflow that builds and deploys the `site/` artifact.
 
-You can just edit your Gist using the online GUI and it should update within less than a minute. 
+### Quick start
+Install dependencies (including dev deps required by the theme):
 
-## But
+```bash
+npm install --include=dev
+```
 
-If you would like to have your `resume.json` in a repository aka like this. 
+Generate the resume HTML:
 
-You can set up a Github Action that automatically updates your gist `resume.json` to match what is in your repo everytime you push. 
+```bash
+npm run generate
+# generates: src/resume.html
+```
 
-If you checkout the `.github/workflows/gist.yml` file you should be able to figure it out with relative ease. Or feel free to ping me an issue. 
+Open `src/resume.html` to preview.
 
-The basic steps are 
+### Link injection
+- Work entries: when `website` is set, the script wraps `work.position` in an `<a>` tag.
+- Project entries: when `website` is set, the script wraps `projects.name` in an `<a>` tag.
+- Links are styled with `style="color:inherit;text-decoration:none;"` so they blend with the text.
 
-1) Create a gist called `resume.json` 
-2) Create or fork this repo and commit your updated `resume.json` 
-3) Create a Personal Github token that has just the `gist` scope 
-4) Go to your repository settings, then to the secrets page, and add a new secret called `TOKEN` with the value being from the token you created in 3) 
-5) Now simply push to your repo, and your `resume.json` from the repo, will publish and override your gist `resume.json` and thus updating the registry to match
+### GitHub Pages
+If this repo is named `<user-name>.github.io`, GitHub Pages will serve the site at:
 
-Enjoy!
+```
+https://<user-name>.github.io/
+```
+
+The workflow copies `src/resume.html` → `site/index.html` and includes `fonts/` so the site works from the root path.
+
+### Troubleshooting
+- If a link doesn't appear: confirm `website` is set and inspect `src/resume.html` to see where the theme rendered the title. Adjust selectors in `src/generate-resume.js` if needed.
+- If rendering fails: install devDeps (`react`, `styled-components`, `@babel/*`) and re-run the generator.
+
+### Commands
+
+```bash
+npm install --include=dev
+npm run generate
+```
+
+Short and ready — tell me if you want a one-line badge or a hosted preview instruction added.
+
+### Credits
+Shoutout to Thomas Davis for the excellent `jsonresume-theme-professional` theme:
+
+https://github.com/thomasdavis/resume
+
