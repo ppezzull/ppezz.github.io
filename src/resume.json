@@ -134,6 +134,23 @@
   ],
   "work": [
     {
+      "name": "Hackathons & ETHGlobal",
+      "position": "Fullstack Bounty Hunter",
+      "startDate": "2025-06-01",
+      "endDate": "2025-09-01",
+      "location": "ETHGlobal Prague; Mantle cookathon; ETHGlobal Cannes; Napuleth; ETHGlobal DeFi Unite; Onchain Summer",
+      "summary": "Completed six hackathons this summer: ETHGlobal Prague, Mantle cookathon, ETHGlobal Cannes, Napuleth, ETHGlobal DeFi Unite, and Onchain Summer. First three were solo; later events were team-based with two peers from 42 Roma Luiss.",
+      "highlights": [
+        "Started zkMed at ETHGlobal Prague (solo) —  contract prototype",
+        "Co-founded 1Balancer at DeFi Unite with two peers",
+        "Learned Foundry for testing, deployment, and scripting",
+        "Developed inspiration from existing projects and community feedback",
+        "Built my own reusable Scaffold template for rapid prototyping",
+        "Won small bounties and credits across events",
+        "Networking with industry professionals and fellow developers"
+      ]
+    },
+    {
       "summary": "Hired after demonstrating Next.js and TypeScript skills at ETH Rome 2024 to one of my teammates. Although the company primarily builds Web2 products, I was brought on to contribute to modern, TypeScript‑centric stacks, working mostly on backend services and some frontend integrations.",
       "website": "https://originsolutions.it",
       "name": "Origin Solutions Srl",
@@ -169,7 +186,7 @@
     {
       "name": "Scaffold-Privy-AA",
       "startDate": "2024-07-01",
-      "description": "A developer toolkit for building Ethereum dapps with Privy social login + account abstraction, integrated with Supabase for RLS via a server-side token exchange. Includes Next.js frontend, Foundry contracts, shadcn UI, and ready-to-run local/production Supabase setups. This is a custom scaffold variant that replaces DaisyUI and RainbowKit with shadcn and Privy, and provides three branches for development: foundry, hardhat, and supabase.",
+      "description": "Developer toolkit for building Ethereum dapps with Privy social login and account abstraction, paired with Supabase for row-level security via a server-side token exchange. Includes a Next.js frontend, Foundry contracts, shadcn UI components, and ready-to-run local Supabase configurations. This custom scaffold replaces DaisyUI and RainbowKit with shadcn and Privy and provides three development branches: foundry, hardhat, and supabase.",
       "highlights": [
         "Privy-based social login and account abstraction (wallets + embedded)",
         "Server Action verifies Privy JWT and mints short-lived Supabase-signed JWT for RLS",
@@ -183,8 +200,7 @@
     {
       "name": "1Balancer",
       "startDate": "2024-08-01",
-      "endDate": "present",
-      "description": "Automated, capital-efficient portfolio rebalancer built for Base L2. On-chain Balancer contracts hold custody and targets; Next.js + Postgres off-chain orchestrator handles pricing, drift detection, order construction and signing. Rebalancing executes 1inch limit orders (via an authenticated proxy) for on-chain execution.",
+      "description": "Automated, capital-efficient portfolio rebalancer prototype for Base L2. On-chain Balancer contracts hold custody and targets; a Next.js + Postgres off-chain orchestrator handles pricing, drift detection, order construction and signing. Rebalancing uses 1inch limit orders via an authenticated proxy for on-chain execution when triggered.",
       "highlights": [
         "Next.js frontend with server actions and a bot for off-chain orchestration.",
         "1inch integration for quotes, charts and limit orders via an authenticated proxy.",
@@ -198,7 +214,7 @@
     {
       "title": "Urbe Campus Hackathon Winner",
       "date": "2024-04-14",
-      "awarder": "Urbe.eth&BuidlGuidl",
+      "awarder": "Urbe.eth and BuidlGuidl",
       "summary": "Pitched the project and led the winning team; implemented the smart contract using Solidity and developed the endpoints for the Next.js frontend to consume, building a blockchain fundraising platform with scaffold-eth.",
       "website": "https://www.linkedin.com/posts/pietro-jairo-pezzullo_im-thrilled-to-announce-that-our-team-emerged-activity-7177659459882672128-JXm7?utm_source=share&utm_medium=member_desktop&rcm=ACoAADsM03wBEsoY4tKY0R7JbZ75TclnMY4SiLc"
     },
